@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getStorage, setStorage } from "./utils";
 export const instance = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "https://b-demo-july-22.herokuapp.com",
 });
 
 instance.defaults.headers["Authorization"] = "bearer X-AUTH-TOKEN";
