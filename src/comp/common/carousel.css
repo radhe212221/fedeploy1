@@ -1,0 +1,25 @@
+/* REACT SLICK ARROW CUSTOM CSS */
+.rts {
+  position: relative;
+}
+
+.rts .slick-prev,
+.rts .slick-next {
+  position: absolute;
+  top: 50%;
+}
+.rts .slick-prev {
+  color: black;
+  z-index: 1;
+}
+.rts .slick-next {
+  border-radius: 50%;
+  color: black;
+  z-index: 1;
+}
+
+.rts .slick-prev:before,
+.slick-next:before {
+  color: black;
+  content: "";
+}
